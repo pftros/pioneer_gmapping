@@ -2,7 +2,7 @@
   <arg name="robot_name" default="$(env ROBOT_NAME)"/>
 
   <!-- Launch the driver -->
-  <include file="$(find pioneer_gmapping)/launch/aria.launch">
+  <include file="$(find pioneer_gmapping)/launch/rosaria.launch">
     <arg name="robot_name" value="$(arg robot_name)"/>
   </include>
 
